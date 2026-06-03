@@ -1,171 +1,252 @@
-# CSD Canteen Management System
+<div align="center">
 
-A web-based **Canteen Management System** developed using **PHP and MySQL** to digitalize canteen operations such as product management, ordering, cart handling, returns, and user administration. This project is designed for academic use and is suitable for **BCA final-year / mini projects**.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=48&pause=1000&color=FF4D6D&center=true&vCenter=true&width=1000&lines=CSD+Canteen+Management+System" />
 
----
+### A Full-Stack Canteen Management Solution
 
-## 📌 Project Overview
+Streamlining canteen operations through digital product management, online ordering, stock control, and return processing — all in one platform.
 
-The **CSD Canteen Management System** provides an online platform where users can browse canteen products, place orders, manage carts and addresses, and request order returns. An admin panel is included to manage products, stock, orders, and return approvals.
+<br>
 
----
+<img src="https://img.shields.io/badge/LICENSE-Educational-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/MYSQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/APACHE-XAMPP-D22128?style=for-the-badge&logo=apache&logoColor=white" />
+<img src="https://img.shields.io/badge/JAVASCRIPT-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 
-## 🛠️ Technology Stack
+<br><br>
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Server:** Apache (XAMPP / WAMP / LAMP)
+<img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
+<img src="https://img.shields.io/badge/Contributions-Welcome-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Academic-Project-blueviolet?style=flat-square" />
+<img src="https://img.shields.io/badge/BCA-Final%20Year-success?style=flat-square" />
 
----
+<br><br>
 
-## 👥 User Roles
+📌 <a href="#-project-overview">Overview</a> •
+✨ <a href="#-features">Features</a> •
+🛠️ <a href="#️-technology-stack">Tech Stack</a> •
+👥 <a href="#-user-roles">User Roles</a> •
+📂 <a href="#-project-structure">Structure</a> •
+🚀 <a href="#️-installation--setup">Getting Started</a> •
+🔐 <a href="#-features-1">Features</a> •
+🎓 <a href="#-academic-relevance">Academic</a> •
+🛣️ <a href="#-future-enhancements">Roadmap</a>
 
-### 🔹 User (Customer)
-- Register and login
-- View available products
-- Add/remove items from cart
-- Manage delivery addresses
-- Place and cancel orders
-- Request product returns
-- Track order and return status
-- Update profile
-- Contact admin
-
-### 🔹 Admin
-- Admin login
-- Add, update, and delete products
-- Manage stock
-- View and update order status
-- Approve or reject return requests
-- Manage returned stock
+</div>
 
 ---
 
-## 📂 Project Structure
+# 📌 Project Overview
 
+The CSD Canteen Management System is a web-based application developed using PHP and MySQL to digitalize canteen operations. The system enables users to browse products, manage carts, place orders, track purchases, and request returns through an intuitive interface.
+
+An integrated admin panel allows administrators to manage products, inventory, orders, return approvals, and overall system operations efficiently.
+
+---
+
+# 🛠️ Technology Stack
+
+| Technology      | Purpose                   |
+| --------------- | ------------------------- |
+| HTML            | Structure                 |
+| CSS             | Styling                   |
+| JavaScript      | Client-side Interactivity |
+| PHP             | Backend Development       |
+| MySQL           | Database Management       |
+| Apache Server   | Application Hosting       |
+| XAMPP/WAMP/LAMP | Development Environment   |
+
+---
+
+# 👥 User Roles
+
+### 👤 Customer
+
+* Register and Login
+* Browse Products
+* Add Products to Cart
+* Manage Delivery Addresses
+* Place Orders
+* Cancel Orders
+* Request Returns
+* Track Orders
+* Update Profile
+* Contact Administrator
+
+### 🛠️ Administrator
+
+* Admin Login
+* Manage Products
+* Manage Inventory
+* View Orders
+* Update Order Status
+* Approve/Reject Returns
+* Manage Returned Stock
+* Monitor System Activities
+
+---
+
+# 📂 Project Structure
+
+```text
 Army-CSD-Canteen/
-CSD_Canteen1/
-|
-├── add_address.php
+│
 ├── add_product.php
-├── add_review.php
-├── add_to_cart.php
 ├── admin_panel.php
 ├── adminlog.php
 ├── approve_return.php
-├── cancel.php
-├── cancel_order.php
 ├── cart.php
 ├── checkout.php
-├── config.php  # Database configuration
+├── config.php
 ├── contact.php
-├── db/
-│   └── (database-related files)
-├── delete_address.php
-├── delete_product.php
-├── edit_address.php
-├── edit_product.php
-├── footer.php
-├── header.php
-├── index.php
 ├── login.php
 ├── logout.php
 ├── manage_orders.php
 ├── manage_products.php
-├── my_orders.php
 ├── payment.php
 ├── place_order.php
 ├── product_details.php
 ├── register.php
 ├── return_order.php
 ├── search.php
-├── update_cart.php
-├── update_order_status.php
-├── update_profile.php
 ├── update_stock.php
-├── wait_approval.php
-└── uploads/  # Product images
-
-
-
-
----
-
-## 🗄️ Database (MySQL)
-
-The database includes tables such as:
-- `users`
-- `admins`
-- `products`
-- `cart`
-- `orders`
-- `order_items`
-- `addresses`
-- `returns`
-- `messages`
-
-Supports relational data with primary and foreign keys.
+│
+├── db/
+│
+└── uploads/
+```
 
 ---
 
-## ⚙️ Installation & Setup
+# 🚀 Installation & Setup
 
-1. Install **XAMPP**
-2. Clone or download this repository
-3. Copy the project folder to:
-4. Start **Apache** and **MySQL** from XAMPP Control Panel
-5. Import the database:
-- Open `phpMyAdmin`
-- Create a new database
-- Import SQL file from the `db/` folder
-6. Configure database credentials in `config.php`
-7. Run the project in browser:
-  http://localhost/Army-CSD-Canteen
+### Prerequisites
 
+* XAMPP / WAMP / LAMP
+* PHP 8+
+* MySQL
+* Apache Server
 
-  
+### Installation
 
----
+```bash
+# Clone Repository
+git clone https://github.com/YOUR_USERNAME/CSD-Canteen-Management-System.git
+```
 
-## 🔐 Features
+### Setup Database
 
-- Session-based authentication
-- Role-based access (Admin / User)
-- CRUD operations
-- Image upload handling
-- Stock management
-- Order and return workflow
-- Secure database connectivity
+1. Start Apache and MySQL
+2. Open phpMyAdmin
+3. Create a database
+4. Import SQL file from the db folder
+5. Configure database credentials in `config.php`
 
----
+### Run Project
 
-## 🎓 Academic Relevance
-
-- Demonstrates **full-stack web development**
-- Implements **real-world e-commerce logic**
-- Covers **DBMS, PHP, Software Engineering concepts**
-- Ideal for **BCA students**
+```url
+http://localhost/Army-CSD-Canteen
+```
 
 ---
 
-## 🚀 Future Enhancements
+# 🔐 Features
 
-- Online payment integration
-- Email/SMS notifications
-- Improved UI using Bootstrap/React
-- Role-based dashboards
-- Enhanced security (password hashing, validation)
+### Authentication
+
+* Session-Based Login System
+* User Registration
+* Admin Authentication
+
+### Product Management
+
+* Product Listing
+* Product Search
+* Product Details
+* Stock Management
+
+### Cart & Ordering
+
+* Add to Cart
+* Update Cart
+* Checkout System
+* Order Tracking
+* Order Cancellation
+
+### Return Management
+
+* Return Requests
+* Return Approval Workflow
+* Stock Restoration
+
+### Administration
+
+* Product CRUD Operations
+* Order Management
+* Inventory Monitoring
+* Return Processing
 
 ---
 
-## 📄 License
+# 🗄️ Database Tables
 
-This project is for **educational purposes only**.
+```text
+users
+admins
+products
+cart
+orders
+order_items
+addresses
+returns
+messages
+```
+
+Supports relational database architecture using primary and foreign key relationships.
 
 ---
 
-## 🙌 Author
+# 🎓 Academic Relevance
 
-**Abhinav B**  
-BCA Student  
+* Demonstrates Full-Stack Web Development
+* Covers PHP and MySQL Concepts
+* Implements Real-World E-Commerce Workflow
+* Includes CRUD Operations
+* Demonstrates Database Design
+* Suitable for BCA Mini Project / Final Year Project
+
+---
+
+# 🛣️ Future Enhancements
+
+* 💳 Online Payment Gateway
+* 📧 Email Notifications
+* 📱 SMS Alerts
+* 🎨 Bootstrap-Based UI
+* ⚛️ React Frontend Integration
+* 📊 Admin Analytics Dashboard
+* 🔒 Enhanced Security & Password Hashing
+* 👥 Advanced Role-Based Access Control
+
+---
+
+# 📄 License
+
+This project is intended for educational and academic purposes only.
+
+---
+
+# 👨‍💻 Author
+
+**Abhinav B**
+
+BCA Student | Full Stack Developer
+
+---
+
+# ⭐ Support
+
+If this project helped you, consider giving it a ⭐ on GitHub.
+
+### Digitizing Canteen Operations Through Technology
