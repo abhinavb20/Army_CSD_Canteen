@@ -30,6 +30,7 @@ Streamlining canteen operations through digital product management, online order
 📂 <a href="#-project-structure">Structure</a> •
 🚀 <a href="#️-installation--setup">Getting Started</a> •
 🔐 <a href="#-features-1">Features</a> •
+🖼️ <a href="#️-screenshots">Screenshots</a> •
 🎓 <a href="#-academic-relevance">Academic</a> •
 🛣️ <a href="#-future-enhancements">Roadmap</a>
 
@@ -42,6 +43,68 @@ Streamlining canteen operations through digital product management, online order
 The CSD Canteen Management System is a web-based application developed using PHP and MySQL to digitalize canteen operations. The system enables users to browse products, manage carts, place orders, track purchases, and request returns through an intuitive interface.
 
 An integrated admin panel allows administrators to manage products, inventory, orders, return approvals, and overall system operations efficiently.
+
+---
+
+# 🖼️ Screenshots
+
+### 🛒 Customer Storefront
+
+<table>
+  <tr>
+    <td align="center"><b>Home</b><br><img src="screenshots/customer/home.png" width="420"></td>
+    <td align="center"><b>Product Details</b><br><img src="screenshots/customer/product-details.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cart</b><br><img src="screenshots/customer/cart.png" width="420"></td>
+    <td align="center"><b>Checkout</b><br><img src="screenshots/customer/checkout.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Payment</b><br><img src="screenshots/customer/payment.png" width="420"></td>
+    <td align="center"><b>Order Success</b><br><img src="screenshots/customer/order-success.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>My Orders</b><br><img src="screenshots/customer/my-orders.png" width="420"></td>
+    <td align="center"><b>Profile</b><br><img src="screenshots/customer/profile.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Addresses</b><br><img src="screenshots/customer/addresses.png" width="420"></td>
+    <td align="center"><b>Add Address</b><br><img src="screenshots/customer/add-address.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Edit Address</b><br><img src="screenshots/customer/edit-address.png" width="420"></td>
+    <td align="center"><b>Contact</b><br><img src="screenshots/customer/contact.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Login</b><br><img src="screenshots/customer/login.png" width="420"></td>
+    <td align="center"><b>Register</b><br><img src="screenshots/customer/register.png" width="420"></td>
+  </tr>
+</table>
+
+### 🛠️ Admin Panel
+
+<table>
+  <tr>
+    <td align="center"><b>Dashboard</b><br><img src="screenshots/admin/dashboard.png" width="420"></td>
+    <td align="center"><b>Products</b><br><img src="screenshots/admin/products.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Add Product</b><br><img src="screenshots/admin/add-product.png" width="420"></td>
+    <td align="center"><b>Edit Product</b><br><img src="screenshots/admin/edit-product.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Stock Updates</b><br><img src="screenshots/admin/stock-update.png" width="420"></td>
+    <td align="center"><b>Orders</b><br><img src="screenshots/admin/orders.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Invoice</b><br><img src="screenshots/admin/invoice.png" width="420"></td>
+    <td align="center"><b>Returned Stock</b><br><img src="screenshots/admin/returned-stock.png" width="420"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Users</b><br><img src="screenshots/admin/users.png" width="420"></td>
+    <td align="center"><b>Sample Invoice (PDF)</b><br><a href="screenshots/admin/sample-invoice.pdf">📄 View sample invoice</a></td>
+  </tr>
+</table>
 
 ---
 
@@ -149,6 +212,15 @@ git clone https://github.com/YOUR_USERNAME/CSD-Canteen-Management-System.git
 http://localhost/Army-CSD-Canteen
 ```
 
+### Default Admin Login
+
+The database seed creates a demo administrator account:
+
+* **Phone:** `9876543210`
+* **Password:** `admin123`
+
+Use these credentials for local testing only. Change the password before deploying the application.
+
 ---
 
 # 🔐 Features
@@ -241,7 +313,7 @@ This project is intended for educational and academic purposes only.
 
 **Abhinav B**
 
-BCA Student | Full Stack Developer
+PHP Developer | Full Stack Developer
 
 ---
 
